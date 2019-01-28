@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width:300px;;
+    height:100%;
+    background-color: #bd5d38;
+    position:fixed;
+    padding-top: 90px;
+    border-radius: none;
+    text-align: center;
+}
+@media (min-width: 768px)
+.navbar {
+  border-radius: none;
+}
+.navbar .img img{
+    border: 10px solid #d48a6e;
+    border-radius: 50%;
+    width: 150px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 25px 0px 0px 15px;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.navbar-nav > li {
+  float:none;
+}
+.navbar ul li{
+    margin: 15px;
+}
+.navbar ul li a{
+    display: inline;
+    color: #d48a6e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:15px;
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px;
+}
+.navbar ul li a:fo{
+    color: #fff;
+}
+/**** End navbar ******/
+/******* statr section about *******/
+.sec-about {
+    margin-left: 340px;
+    padding-top: 120px;
+    margin-bottom: 150px;
+}
+.sec-about .heading h1{
+  font-family: 'Anton', sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.sec-about .heading span{
+    color: #bd5d38 
+}
+.sec-about .heading .subheading{
+  text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #868e96;
+}
+.sec-about .heading .subheading a{
+    color: #bd5d38 
+}
+.sec-about .body{
+    margin-top: 75px;
+}
+.sec-about .body p{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #868e96;
+}
+.sec-about .social{
+    margin-top: 50px;
+}
+.sec-about .social a{
+  display: inline-block;
+  width: 60px;
+  height: 60px; 
+  padding: 16px;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 7px;;
+}
+.sec-about .social a:hover{
+    background-color: #bd5d38 !important;
+}
+/******* end section about *******/
+/******* statr section about *******/
+.sec-experience {
+    margin-left: 340px;
+    padding-top: 120px;
+    margin-bottom: 150px;
+}
+.sec-experience h2{
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 6;
+  text-transform: uppercase;
+  color: #343a40;
+  margin-bottom: 50px;
+}
+.sec-experience .senior{
+    margin-bottom: 40px;
+}
+.sec-experience .senior h3{
+  font-family: 'Anton', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.sec-experience .senior .subheading{
+    text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 20px;
+  color: #868e96;
+}
+.sec-experience .senior .date{
+    margin-left: 700px;
+}
+.sec-experience .senior .date span{
+    color: #BD5D38 ;
+    font-size: 20px;
+}
+.sec-experience .senior p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #868e96;
+  padding-right: 285px;
+  margin-top: 75px;
+}
+/******* end section about *******/
+/******* start section education *******/
+.sec-education{
+    font-family: 'Anton', sans-serif;
+   margin-left: 340px;
+    padding-top: 120px;
+    margin-bottom: 150px; 
+}
+.sec-education .senior{
+    margin-bottom: 40px;
+}
+.sec-education  .senior h3{
+  font-family: 'Anton', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.sec-education .senior .subheading{
+    text-transform: uppercase;
+  font-family:  'Saira Extra Condensed', sans-serif;
+  font-size: 25px;
+  color: #868e96;
+}
+.sec-education .senior .subbheading{
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 17px;
+  color: #868e96;
+}
+.sec-education .senior .date{
+    margin-left: 700px;
+}
+.sec-education .senior .date span{
+    color: #BD5D38 ;
+    font-size: 20px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.sec-education  .senior p{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 20px;
+  color: #868e96;
+  
+}
+/******* end section education *******/
+/******* start section skills *******/
+.sec-skills{
+    margin-left: 340px;
+    padding-top: 120px;
+    margin-bottom: 150px;
+}
+.sec-skills h2{
+ font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 6;
+  text-transform: uppercase;
+  color: #343a40;
+  margin-bottom: 50px;
+}
+.sec-skills  .subheading{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+    font-weight: 500;
+  font-size: 25px;
+  color: #868e96;
+}
+.sec-skills .social-skills {
+    margin: 25px;
+}
+.sec-skills .social-skills ul li i{
+    font-size: 55px;
+    color: #868e96;
+}
+.sec-skills ul li i{
+    color: #868e96;
+}
+.sec-skills ul li {
+    color: #868e96;
+    font-size: 25px;
+}
+/******* end section skills *******/
+/******* start section interests *******/
+.sec-interests{
+    margin-left: 340px;
+    padding-top: 120px;
+    margin-bottom: 150px;
+}
+.sec-interests h2{
+ font-family: 'Anton', sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 6;
+  text-transform: uppercase;
+  color: #343a40;
+  margin-bottom: 50px;
+}
+.sec-interests p{
+   font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #868e96;
+  padding-top: 15px;
+}
+/******* end section interests *******/
+/******* start section awards *******/
+.sec-awards{
+  margin-left: 340px;
+  padding-top: 120px;
+  margin-bottom: 150px;  
+}
+.sec-awards h2{
+ font-family: 'Anton', sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 6;
+  text-transform: uppercase;
+  color: #343a40;
+  margin-bottom: 50px;
+}
+.sec-awards ul li i{
+    color: #ffc107;
+}
+.sec-awards ul li {
+    color: #868e96;
+    font-size: 15px;
+}
